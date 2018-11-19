@@ -50,6 +50,5 @@ with open("blog_posts_raw.json", "w") as file:
 text = ""
 for i in data['post_content_clean']:
     text = text + i + " "
-print(text)
 with open("blog_posts_raw.txt", "w") as file:
     file.write(text)
